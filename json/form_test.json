@@ -1,0 +1,84 @@
+{
+    "form": [
+        {
+            "tipo": "titulo",
+            "label": "Agregar Nuevo Usuario"
+        },
+        {
+            "tipo": "comentario",
+            "label": "Complete los campos obligarios *:",
+            "color":"danger"
+        },
+        {
+            "tipo": "input",
+            "label": "Nombre",
+            "requerido": "true",
+            "name": "nombre"
+        },
+        {
+            "tipo": "input",
+            "label": "Apellido",
+            "requerido": "true",
+            "name": "apellido"
+        },
+        {
+            "tipo": "datepicker",
+            "label": "Fecha Nacimiento",
+            "requerido": "true",
+            "name": "fecha_nacimiento"
+        },
+        {
+            "tipo": "input",
+            "label": "Email",
+            "requerido": "true",
+            "name": "email"
+        },
+        {
+            "tipo": "select",
+            "label": "Seleccionar Provincia",
+            "requerido": "true",
+            "name": "provincia",
+            "opciones": [
+                {
+                    "value":"sanjuan",
+                    "label":"San Juan"
+                },
+                {
+                    "value":"mendoza",
+                    "label":"Mendoza"
+                },
+                {
+                    "value":"sanluis",
+                    "label":"San Luis"
+                }
+            ]
+        },
+        {
+            "tipo": "opciones",
+            "label": "Seleccioar Sexo",
+            "requerido": "true",
+            "name": "sexo",
+            "opciones": [
+                {
+                    "value": "hombre",
+                    "label": "Hombre"
+                },
+                {
+                    "value": "mujer",
+                    "label": "Mujer"
+                },
+                {
+                    "value": "indefinido",
+                    "label": "No estoy seguro"
+                }
+            ]
+        },
+        {
+            "tipo": "check",
+            "label": "Enviar correo",
+            "value": "true",
+            "requerido": "true",
+            "name": "send_mail"
+        }
+    ]
+}

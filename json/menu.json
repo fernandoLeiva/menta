@@ -1,0 +1,28 @@
+{
+    "menu": [
+        {
+            "nombre": "Item 1",
+            "icono": "fa fa-diamond",
+            "link": "almacenV2/Proceso",
+            "nivel": 1
+        },
+        {
+            "nombre": "Item 2",
+            "icono": "fa fa-diamond",
+            "link": "",
+            "nivel": 2,
+            "submenu": [
+                {
+                    "nombre": "Subitem 1",
+                    "icono": "",
+                    "link": "almacenV2/Articulo"
+                },
+                {
+                    "nombre": "Subitem 2",
+                    "icono": "",
+                    "link": "almacenV2/Articulo"
+                }
+            ]
+        }
+    ]
+}

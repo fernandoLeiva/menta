@@ -1,0 +1,134 @@
+{
+    "form":"CONTROL TÉCNICO VEHICULAR",
+    "plantilla": [
+        {
+            "tipo": "datepicker",
+            "label": "Fecha Actual",
+            "requerido": "true",
+            "name": "fecha"
+        },
+        {
+            "tipo": "titulo",
+            "label": "Características"
+        },
+        {
+            "tipo": "comentario",
+            "label": "Complete los campos obligarios *:",
+            "color":"danger"
+        },
+        {
+            "tipo": "opciones",
+            "label": "Tipo Vehículo",
+            "requerido": "true",
+            "name": "tipo_vehiculo",
+            "opciones": [
+                {
+                    "value": "auto",
+                    "label": "Automóvil"
+                },
+                {
+                    "value": "picup",
+                    "label": "Pic-Up"
+                },
+                {
+                    "value": "camion",
+                    "label": "Camión"
+                },
+                {
+                    "value": "otros",
+                    "label": "Otros"
+                }
+            ]
+        },
+        {
+            "tipo": "input",
+            "label": "Cliente",
+            "requerido": "true",
+            "name": "cliente"
+        },
+        {
+            "tipo": "input",
+            "label": "Marca",
+            "requerido": "true",
+            "name": "marca"
+        },
+        {
+            "tipo": "input",
+            "label": "Motor",
+            "requerido": "true",
+            "name": "motor"
+        },
+        {
+            "tipo": "input",
+            "label": "Cilindrada",
+            "requerido": "true",
+            "name": "cilindrada"
+        },
+        {
+            "tipo": "input",
+            "label": "Combustible",
+            "requerido": "true",
+            "name": "combustible"
+        },
+        {
+            "tipo": "titulo",
+            "label": "Ficha Tecnica"
+        },
+        {
+            "tipo": "input",
+            "label": "Pontencia Especifica",
+            "requerido": "true",
+            "name": "pot_esp"
+        },
+        {
+            "tipo": "input",
+            "label": "Torque Especifica",
+            "requerido": "true",
+            "name": "tor_esp"
+        },
+        {
+            "tipo": "view",
+            "url": "ficha_tecnica"
+        },
+        {
+            "tipo": "textarea",
+            "label": "Observaciones",
+            "requerido": "true",
+            "name": "obs"
+        },
+        {
+            "tipo": "titulo",
+            "label": "Instrumentos Incorporados al Vehiculo"
+        },
+        {
+            "tipo": "view",
+            "url": "inst_vehi"
+        },
+        {
+            "tipo": "titulo",
+            "label": "Verificación y Control del Tren Rodante (Propulsor)"
+        },
+        {
+            "tipo": "textarea",
+            "label": "Observaciones",
+            "requerido": "true",
+            "name": "obs"
+        },
+        {
+            "tipo": "opciones",
+            "label": "Resultado",
+            "requerido": "true",
+            "name": "resultado",
+            "opciones": [
+                {
+                    "value": "aprobado",
+                    "label": "Aprobado"
+                },
+                {
+                    "value": "rechazado",
+                    "label": "Rechazado"
+                }
+            ]
+        }
+    ]
+}
