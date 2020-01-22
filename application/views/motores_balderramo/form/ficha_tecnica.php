@@ -11,38 +11,36 @@
         </tbody>
 
 
-        <label class="font-normal control-label">Caja:</label>
+        <!-- <label class="font-normal control-label">Caja:</label> -->
 
         <tbody>
             <tr>
-                <td><label class="checkbox-inline i-checks"> <input name="ft[]" type="checkbox" value="option1"> Puente </label>
+                <td><label class="checkbox-inline i-checks"> <input name="ft[]" type="checkbox" value="option1"> Caja Puente </label>
                 </td>
-                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option2"> Secuencial </label> </td>
-                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option3"> Automatica </label> </td>
+                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option2"> Caja Secuencial </label> </td>
+                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option3"> Caja Automatica </label> </td>
             </tr>
         </tbody>
 
 
 
-        <label class="font-normal control-label">Rodado:</label>
+        <!-- <label class="font-normal control-label">Rodado:</label> -->
 
+        <tbody>
+            <tr>
+                <td><label class="checkbox-inline i-checks"> <input name="ft[]" type="checkbox" value="option1"> Cardan Simple </label>
+                </td>
+                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option2"> Cardan Doble </label></td>
+            </tr>
+        </tbody>
+
+        <!-- <label class="font-normal control-label">Cardan:</label> -->
         <tbody>
             <tr>
                 <td><label class="checkbox-inline i-checks"> <input name="ft[]" type="checkbox" value="option1"> Simple </label>
                 </td>
                 <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option2"> Doble </label></td>
                 <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option3"> Rodado Guia </label></td>
-            </tr>
-        </tbody>
-
-
-        <label class="font-normal control-label">Cardan:</label>
-
-        <tbody>
-            <tr>
-                <td><label class="checkbox-inline i-checks"> <input name="ft[]" type="checkbox" value="option1"> Simple </label>
-                </td>
-                <td><label class="i-checks"> <input name="ft[]" type="checkbox" value="option2"> Doble </label></td>
             </tr>
         </tbody>
     </table>

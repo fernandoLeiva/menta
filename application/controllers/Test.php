@@ -5,11 +5,13 @@ class Test extends CI_Controller {
 
 	public function index()
 	{
-		$resp = getJson('balderramo');
+		
+		$this->load->model(FRM.'Forms');
+		$aux = $this->Forms->obtenerPlantilla(10);
 
 		$form = new StdClass();
-		$form->nombre = $resp->form;
-		$form->form = form($resp->plantilla);
+		$form->nombre = $aux->nombre;
+		$form->form = form($aux->items);
         $data['form'] = $form;
 		$this->load->view('test',$data);
 		$this->load->view(FRM.'scripts');

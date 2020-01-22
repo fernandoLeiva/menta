@@ -59,7 +59,7 @@ if (!function_exists("form")) {
                     break;
             }
         }
-        $form .= "<button class='btn btn-primary pull-right'>Guardar</button></form>";
+        $form .= "<button class='btn btn-primary pull-right'>Guardar</button></form><br>";
         return $form;
     }
 
@@ -118,7 +118,7 @@ if (!function_exists("form")) {
 
     function check($e)
     {
-        return "<div class='i-checks'><label> <input type='checkbox' value='$e->value' name='$e->name'> <i></i>$e->label</label></div>";
+        return "<div class='i-checks'><label> <input type='checkbox' value='".(isset($e->valor)?$e->valor:null)."' name='$e->name'> <i></i>$e->label</label></div>";
     }
 
     function textarea($e)

@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-12">
         <div class="ibox">
             <div class="ibox-title">
                 <h3><?php echo $form->nombre ?></h3>
@@ -23,14 +23,7 @@
             </div>
             <div class="ibox-content">
                 <?php echo $form->form ?>
-
             </div>
-            <!-- <div class="ibox-footer">
-                <span class="float-right">
-                    The righ side of the footer
-                </span>
-                This is simple footer example
-            </div> -->
         </div>
     </div>
 </div>
